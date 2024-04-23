@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+}
+
+/*
+Les types de media queries
+    - all
+    - screen
+    - print
+    - speech
+*/
+@media print {
+    .no-print {
+        display: none;
+    }
+}
