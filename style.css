@@ -14,3 +14,24 @@ Les types de media queries
         display: none;
     }
 }
+
+@media screen {
+    .footer {
+        border: solid 5px red;
+    }
+}
+
+a {
+    font-weight: bold;
+    margin-bottom: 25px;
+    display: block;
+}
+
+/*
+Les caractéristiques de média (Media feature).
+- width
+- height
+- max-width
+- min-width
+- orientation
+*/
